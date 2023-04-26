@@ -1,3 +1,5 @@
+
+
 class Currencies {
   final String currencyName;
   final double currencyPrice;
@@ -8,15 +10,16 @@ class Currencies {
 
 
 
+
 }
 
 
 final List<Currencies> currenciesList = [
 
   Currencies(
-      currencyName: 'Bitcoin',
-      currencyPrice: 0.0001,
-      currencyPercent: 0.01
-  ),
+    currencyName: 'Bitcoin',
+    currencyPrice: 0.0001,
+    currencyPercent: 0.01,
 
-];
+  )];
+
