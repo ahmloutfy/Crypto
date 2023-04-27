@@ -41,7 +41,9 @@ class _MyHomePageState extends State<MyHomePage> {
       currencyPercent: cuPercentage,
     );
 
-    currenciesList.add(newCu);
+        setState(() {
+      currenciesList.add(newCu);
+    });
   }
 
   @override
